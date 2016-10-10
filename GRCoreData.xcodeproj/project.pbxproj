@@ -14,6 +14,14 @@
 		6FA593171DAA2EF0008181E5 /* GRCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FA593151DAA2EF0008181E5 /* GRCoreData.xcdatamodeld */; };
 		6FA593191DAA2EF0008181E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA593181DAA2EF0008181E5 /* Assets.xcassets */; };
 		6FA5931C1DAA2EF0008181E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA5931A1DAA2EF0008181E5 /* LaunchScreen.storyboard */; };
+		6FA593251DAA378B008181E5 /* addViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA593241DAA378B008181E5 /* addViewController.m */; };
+		6FA593631DAA51AF008181E5 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA593621DAA51AF008181E5 /* CustomTableViewCell.m */; };
+		6FA593791DAA5AD7008181E5 /* SmartPhone+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA5936E1DAA5AD7008181E5 /* SmartPhone+CoreDataProperties.m */; };
+		6FA5937A1DAA5AD7008181E5 /* SmartPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA593701DAA5AD7008181E5 /* SmartPhone.m */; };
+		6FA5937B1DAA5AD7008181E5 /* AC+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA593721DAA5AD7008181E5 /* AC+CoreDataProperties.m */; };
+		6FA5937C1DAA5AD7008181E5 /* AC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA593741DAA5AD7008181E5 /* AC.m */; };
+		6FA5937D1DAA5AD7008181E5 /* TV+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA593761DAA5AD7008181E5 /* TV+CoreDataProperties.m */; };
+		6FA5937E1DAA5AD7008181E5 /* TV.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA593781DAA5AD7008181E5 /* TV.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,22 @@
 		6FA593181DAA2EF0008181E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FA5931B1DAA2EF0008181E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FA5931D1DAA2EF0008181E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FA593231DAA378B008181E5 /* addViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addViewController.h; sourceTree = "<group>"; };
+		6FA593241DAA378B008181E5 /* addViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addViewController.m; sourceTree = "<group>"; };
+		6FA593611DAA51AF008181E5 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		6FA593621DAA51AF008181E5 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		6FA5936D1DAA5AD7008181E5 /* SmartPhone+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SmartPhone+CoreDataProperties.h"; path = "../SmartPhone+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6FA5936E1DAA5AD7008181E5 /* SmartPhone+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SmartPhone+CoreDataProperties.m"; path = "../SmartPhone+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6FA5936F1DAA5AD7008181E5 /* SmartPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmartPhone.h; path = ../SmartPhone.h; sourceTree = "<group>"; };
+		6FA593701DAA5AD7008181E5 /* SmartPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmartPhone.m; path = ../SmartPhone.m; sourceTree = "<group>"; };
+		6FA593711DAA5AD7008181E5 /* AC+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AC+CoreDataProperties.h"; path = "../AC+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6FA593721DAA5AD7008181E5 /* AC+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AC+CoreDataProperties.m"; path = "../AC+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6FA593731DAA5AD7008181E5 /* AC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AC.h; path = ../AC.h; sourceTree = "<group>"; };
+		6FA593741DAA5AD7008181E5 /* AC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AC.m; path = ../AC.m; sourceTree = "<group>"; };
+		6FA593751DAA5AD7008181E5 /* TV+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TV+CoreDataProperties.h"; path = "../TV+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6FA593761DAA5AD7008181E5 /* TV+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TV+CoreDataProperties.m"; path = "../TV+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6FA593771DAA5AD7008181E5 /* TV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TV.h; path = ../TV.h; sourceTree = "<group>"; };
+		6FA593781DAA5AD7008181E5 /* TV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TV.m; path = ../TV.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +88,27 @@
 				6FA5930D1DAA2EF0008181E5 /* AppDelegate.m */,
 				6FA5930F1DAA2EF0008181E5 /* ViewController.h */,
 				6FA593101DAA2EF0008181E5 /* ViewController.m */,
+				6FA593611DAA51AF008181E5 /* CustomTableViewCell.h */,
+				6FA593621DAA51AF008181E5 /* CustomTableViewCell.m */,
+				6FA593231DAA378B008181E5 /* addViewController.h */,
+				6FA593241DAA378B008181E5 /* addViewController.m */,
 				6FA593121DAA2EF0008181E5 /* Main.storyboard */,
 				6FA593181DAA2EF0008181E5 /* Assets.xcassets */,
 				6FA5931A1DAA2EF0008181E5 /* LaunchScreen.storyboard */,
 				6FA5931D1DAA2EF0008181E5 /* Info.plist */,
 				6FA593151DAA2EF0008181E5 /* GRCoreData.xcdatamodeld */,
+				6FA5936D1DAA5AD7008181E5 /* SmartPhone+CoreDataProperties.h */,
+				6FA5936E1DAA5AD7008181E5 /* SmartPhone+CoreDataProperties.m */,
+				6FA5936F1DAA5AD7008181E5 /* SmartPhone.h */,
+				6FA593701DAA5AD7008181E5 /* SmartPhone.m */,
+				6FA593711DAA5AD7008181E5 /* AC+CoreDataProperties.h */,
+				6FA593721DAA5AD7008181E5 /* AC+CoreDataProperties.m */,
+				6FA593731DAA5AD7008181E5 /* AC.h */,
+				6FA593741DAA5AD7008181E5 /* AC.m */,
+				6FA593751DAA5AD7008181E5 /* TV+CoreDataProperties.h */,
+				6FA593761DAA5AD7008181E5 /* TV+CoreDataProperties.m */,
+				6FA593771DAA5AD7008181E5 /* TV.h */,
+				6FA593781DAA5AD7008181E5 /* TV.m */,
 				6FA593091DAA2EF0008181E5 /* Supporting Files */,
 			);
 			path = GRCoreData;
@@ -152,10 +192,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FA5937A1DAA5AD7008181E5 /* SmartPhone.m in Sources */,
+				6FA5937E1DAA5AD7008181E5 /* TV.m in Sources */,
+				6FA5937B1DAA5AD7008181E5 /* AC+CoreDataProperties.m in Sources */,
+				6FA593251DAA378B008181E5 /* addViewController.m in Sources */,
+				6FA5937C1DAA5AD7008181E5 /* AC.m in Sources */,
 				6FA593111DAA2EF0008181E5 /* ViewController.m in Sources */,
 				6FA5930E1DAA2EF0008181E5 /* AppDelegate.m in Sources */,
+				6FA5937D1DAA5AD7008181E5 /* TV+CoreDataProperties.m in Sources */,
 				6FA5930B1DAA2EF0008181E5 /* main.m in Sources */,
+				6FA593791DAA5AD7008181E5 /* SmartPhone+CoreDataProperties.m in Sources */,
 				6FA593171DAA2EF0008181E5 /* GRCoreData.xcdatamodeld in Sources */,
+				6FA593631DAA51AF008181E5 /* CustomTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
